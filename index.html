@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Login </title>
 </head>
-<body>
+<body style="background: linear-gradient(to right, rgb(173, 120, 187), rgba(3, 147, 125, 0.831)) " >
     <center>
-    <div style="background-color: rgb(228, 228, 220); padding: 50px; height: 200px; width: 600px; text-align: center; position: relative; align-items: center;">
+
+    <div style="background-color: rgba(228, 228, 220, 0.852); padding: 20px; margin-top: 20px; height: 300px; width: 400px; text-align: center; position: relative; align-items: center;">
+        <h1 style="font-family: Georgia, Times New Roman, 'Times', serif;">Login</h1>
         <form action="">
             <input type="text" name="user" id="user" placeholder="usuario"><br><br>
             <input type="password" name="password" id="password" placeholder="password"><br><br>
-             <center>
-            <div class="g-recaptcha" data-sitekey="6LcwpBopAAAAAJpyUVYm-iyCvgfNeJvnxdMhz4Co" data-callback="correctCaptcha"></div>
-            <input type="button" value="Login" onclick="validar()" >
-             </center>
+            <center><div class="g-recaptcha" data-sitekey="6LcwpBopAAAAAJpyUVYm-iyCvgfNeJvnxdMhz4Co" data-callback="correctCaptcha"></div></center>
+            <input style="margin-top: 20px; margin-bottom: 50px; text-decoration:none; font-weight: 600; font-size: 15px; color:#2e2e2e;
+            padding-top:5px; padding-bottom:5px; padding-left:40px; padding-right:40px; background-color:rgb(202, 164, 223); border-color: #c08ed4;
+            border-width: 3px; border-style: solid; border-radius:35px;" type="button" value="Login" onclick="validar()" >
         </form>
     </div>
     </center>
